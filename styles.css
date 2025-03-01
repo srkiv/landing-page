@@ -1,0 +1,199 @@
+
+ body{
+    margin: 0 auto;
+    font-family: 'Roboto',sans-serif;
+}   
+
+
+ /* *********************************************************************
+                          Header Section
+  ********************************************************************* */
+  
+#top{
+    background-color:#1F2937 ;
+    padding: 0px 150px;
+ }        
+ #header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+ }  
+#logo{
+    color:#F9FAF8;
+    font-size:24px;
+    font-weight: 900;
+ }  
+ #header ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    color:#E5E7EB;
+    font-size: 18px;
+    gap:10px;
+ }
+
+ /* *********************************************************************
+                          Content Section
+  ********************************************************************* */
+
+  #content{
+    display: flex;
+    padding: 100px 0px;
+    justify-content: space-between;
+    align-items: center;
+    gap:100px;
+    max-height: 250px;
+  }
+  #content-text{
+   width:40%;
+   
+  }
+  #content-text h1{
+    font-size: 48px;
+    color:#F9FAF8;
+    font-weight: 900;
+    line-height: 1.1;
+    margin-bottom: 5px;
+    
+  }
+
+  #content-text p{
+    margin-top: 5px;
+    font-size: 18px;
+    color:#E5E7EB;
+    margin-bottom: 10px;
+  }
+  #content-text button{
+      background-color: #1F2937;
+      color:white;
+      border: none;
+      outline: none;
+      border: 3px solid white;
+      font-size: 18px;
+      padding: 10px 30px;
+      border-radius: 15px;
+    }
+#content-text button:hover{
+    cursor: pointer;
+    background-color:white;
+    color:#1F2937;
+}
+  #content-image img{
+    margin-left: 150px;
+    width:70%;
+    border-radius: 15px;
+   
+  }
+
+  /* *********************************************************************
+                          Information Section
+  ********************************************************************* */
+
+  #info{
+    padding: 20px 250px;
+    
+  }
+  #info-title{
+    padding:20px 0px;
+    text-align: center;
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 900;
+  }
+  #info-album{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+    padding-bottom: 50px;
+  }
+  .box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .box img{
+    height: 198px;
+    width: 198px;
+    border-radius: 10px;
+    
+  }
+
+ 
+  /* *********************************************************************
+                          Quote Section
+  ********************************************************************* */
+  #quote{
+    display: flex;
+    padding:40px 150px;
+    background-color: #E5E7EB;
+    border: 2px solid #3882F6;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+    gap:50px;
+  }
+  .bubble{
+    background-color: white;
+    border: 2px solid #3882F6;
+    border-radius: 15px;
+    padding:20px 5px;
+    width: 20%;
+  }
+    /* *********************************************************************
+                          Sign up Section
+  ********************************************************************* */
+  
+#signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+.banner{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px 150px;
+    margin: 50px;
+    color:white;
+    border-radius: 15px;
+    width: 60%;
+}
+.banner button{
+    background-color: #3882F6;
+      color:white;
+      border: 3px solid white ;
+      font-weight: bold;
+      outline: none;
+      font-size: 18px;
+      padding: 10px 30px;
+      border-radius: 15px;
+}
+.banner button:hover{
+    cursor: pointer;
+    background-color:white;
+    color:#3882F6;
+}
+.banner h1,p{
+    margin:0;
+}
+.banner p{
+    margin-top: 5px;
+}
+
+/* *********************************************************************
+                          Footer Section
+  ********************************************************************* */
+footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#F9FAF8;
+    padding: 20px;
+}
