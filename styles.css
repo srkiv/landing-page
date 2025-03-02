@@ -33,6 +33,10 @@
     font-size: 18px;
     gap:10px;
  }
+ #header li:hover{
+  color:#606e81;
+  cursor: pointer;
+ }
 
  /* *********************************************************************
                           Content Section
@@ -125,6 +129,9 @@
   .box p{
     padding-top: 5px;
   }
+  .box img:hover{
+    opacity: 0.8;
+  }
 
  
   /* *********************************************************************
@@ -144,6 +151,7 @@
     background-color: white;
     border: 2px solid #3882F6;
     border-radius: 15px;
+    font-style: italic;
     padding:20px 5px;
     width: 20%;
   }
