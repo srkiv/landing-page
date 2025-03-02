@@ -122,6 +122,9 @@
     border-radius: 10px;
     
   }
+  .box p{
+    padding-top: 5px;
+  }
 
  
   /* *********************************************************************
@@ -144,6 +147,11 @@
     padding:20px 5px;
     width: 20%;
   }
+  .bubble span{
+    display: block;
+    text-align: right;
+    font-weight: bold;
+  }
     /* *********************************************************************
                           Sign up Section
   ********************************************************************* */
@@ -158,11 +166,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:30px 150px;
+    padding:30px 100px;
     margin: 50px;
     color:white;
     border-radius: 15px;
-    width: 60%;
+    width: 50%;
 }
 .banner button{
     background-color: #3882F6;
